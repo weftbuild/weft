@@ -1,8 +1,10 @@
 # Weft
 
+Weft is how you turn a rough idea into a product you own. A team of specialists walks every step with you, from the first question to a real product.
+
 Weft guides you through every stage of building software — strategy,
 design, engineering, QA, security, deployment — so you ship something
-real instead of a pile of AI-generated code with no process around it.
+real instead of a pile of unusable AI-generated code.
 
 It is a **Claude Code plugin**. One command: `/weft`. It reads where
 you are and does the right next thing.
