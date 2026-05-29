@@ -40,17 +40,6 @@ Weft is a one-time download. No tiers, no recurring cost — it runs
 entirely on your own Claude subscription, so it costs nothing extra
 per use.
 
-## Structure
-
-- `skills/weft/` — the single `/weft` entry (router)
-- `agents/` — the Orchestrator and every stage builder (subagents)
-- `reference/flows/` — per-lane flow specs the Orchestrator executes
-- `reference/checklists/` — stack-specific security checklists
-- `reference/architect-paths/` — paths the Architect can recommend
-- `reference/examples/` — example `pipeline.config.json` shapes
-- `hooks/` `scripts/` `bin/` — SessionStart orientation +
-  build-readiness probe + optional statusline
-
 ## Status
 
 Internally complete and validated through real test runs. Public
