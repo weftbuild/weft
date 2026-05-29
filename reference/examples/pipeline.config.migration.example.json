@@ -1,0 +1,25 @@
+{
+  "name": "stand",
+  "type": "mobile_app",
+  "entryPath": "migration",
+  "repoURL": "https://github.com/user/stand",
+  "repoProvider": "github",
+  "frontend": "react-native-expo",
+  "backend": "supabase",
+  "emailProvider": null,
+  "smsProvider": null,
+  "deploymentTarget": "expo-eas",
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T09:00:00Z",
+  "stack": {
+    "componentLibrary": "nativewind",
+    "designTokens": "theme.ts",
+    "testRunner": "jest",
+    "cicd": "github-actions",
+    "environments": {
+      "dev": "main",
+      "staging": "https://expo.dev/@user/stand?channel=staging",
+      "prod": "https://expo.dev/@user/stand?channel=production"
+    }
+  }
+}

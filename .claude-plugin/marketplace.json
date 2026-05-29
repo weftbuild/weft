@@ -1,0 +1,18 @@
+{
+  "name": "weft-marketplace",
+  "description": "Weft — a guided, stage-gated software-delivery pipeline for Claude Code. One command, idea to shipped.",
+  "owner": {
+    "name": "Deven Simonson",
+    "url": "https://weft.build"
+  },
+  "plugins": [
+    {
+      "name": "weft",
+      "description": "Guides you through every stage of building software so you ship something real",
+      "version": "1.0.11",
+      "source": "./",
+      "license": "MIT",
+      "keywords": ["pipeline", "workflow", "orchestration", "software-delivery"]
+    }
+  ]
+}

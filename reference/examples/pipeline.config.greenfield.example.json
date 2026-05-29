@@ -1,0 +1,25 @@
+{
+  "name": "my-todo-app",
+  "type": "web_app",
+  "entryPath": "new",
+  "repoURL": "https://github.com/janedoe/my-todo-app",
+  "repoProvider": "github",
+  "frontend": "react-vite",
+  "backend": "supabase",
+  "emailProvider": "resend",
+  "smsProvider": null,
+  "deploymentTarget": "vercel",
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T09:00:00Z",
+  "stack": {
+    "componentLibrary": "shadcn-ui",
+    "designTokens": "src/globals.css",
+    "testRunner": "vitest",
+    "cicd": "github-actions",
+    "environments": {
+      "dev": "main",
+      "staging": "https://my-todo-app-staging.vercel.app",
+      "prod": "https://my-todo-app.vercel.app"
+    }
+  }
+}

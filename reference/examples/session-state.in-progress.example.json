@@ -1,0 +1,13 @@
+{
+  "activeFeature": "user-authentication",
+  "entryPath": "new",
+  "currentStage": 3,
+  "lastCompletedStage": 2,
+  "lastCheckpointStatus": "in-progress",
+  "confirmedArtifacts": [
+    "pipeline/user-authentication/strategic-brief.md",
+    "pipeline/user-authentication/prd.md"
+  ],
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T11:23:00Z"
+}

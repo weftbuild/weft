@@ -1,0 +1,25 @@
+{
+  "name": "my-saas-app",
+  "type": "full_stack",
+  "entryPath": "new",
+  "repoURL": "https://github.com/janedoe/my-saas-app",
+  "repoProvider": "github",
+  "frontend": "react-vite",
+  "backend": "supabase",
+  "emailProvider": "resend",
+  "smsProvider": "twilio",
+  "deploymentTarget": "vercel",
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T09:00:00Z",
+  "stack": {
+    "componentLibrary": "shadcn-ui",
+    "designTokens": "src/globals.css",
+    "testRunner": "vitest",
+    "cicd": "github-actions",
+    "environments": {
+      "dev": "main",
+      "staging": "https://my-saas-app-staging.vercel.app",
+      "prod": "https://myapp.com"
+    }
+  }
+}

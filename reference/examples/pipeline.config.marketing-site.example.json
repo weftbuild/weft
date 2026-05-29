@@ -1,0 +1,25 @@
+{
+  "name": "my-marketing-site",
+  "type": "marketing_site",
+  "entryPath": "new",
+  "repoURL": "https://github.com/janedoe/my-marketing-site",
+  "repoProvider": "github",
+  "frontend": "nextjs",
+  "backend": "neon",
+  "emailProvider": "resend",
+  "smsProvider": null,
+  "deploymentTarget": "vercel",
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T09:00:00Z",
+  "stack": {
+    "componentLibrary": "shadcn-ui",
+    "designTokens": "src/globals.css",
+    "testRunner": "jest",
+    "cicd": "github-actions",
+    "environments": {
+      "dev": "main",
+      "staging": "https://my-marketing-site-staging.vercel.app",
+      "prod": "https://mysite.com"
+    }
+  }
+}

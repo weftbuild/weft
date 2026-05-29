@@ -1,0 +1,12 @@
+{
+  "name": "weft",
+  "version": "1.0.11",
+  "description": "Guides you through every stage of building software so you ship something real",
+  "author": {
+    "name": "Deven Simonson",
+    "url": "https://weft.build"
+  },
+  "homepage": "https://weft.build",
+  "license": "MIT",
+  "keywords": ["pipeline", "workflow", "orchestration", "software-delivery"]
+}

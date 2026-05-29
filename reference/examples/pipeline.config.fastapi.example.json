@@ -1,0 +1,25 @@
+{
+  "name": "my-data-api",
+  "type": "web_app",
+  "entryPath": "new",
+  "repoURL": "https://github.com/janedoe/my-data-api",
+  "repoProvider": "github",
+  "frontend": null,
+  "backend": "python-fastapi",
+  "emailProvider": null,
+  "smsProvider": null,
+  "deploymentTarget": "railway",
+  "createdAt": "2026-03-17T09:00:00Z",
+  "updatedAt": "2026-03-17T09:00:00Z",
+  "stack": {
+    "componentLibrary": null,
+    "designTokens": null,
+    "testRunner": "pytest",
+    "cicd": "github-actions",
+    "environments": {
+      "dev": "main",
+      "staging": "https://my-data-api-staging.railway.app",
+      "prod": "https://my-data-api.railway.app"
+    }
+  }
+}
